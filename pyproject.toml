@@ -1,0 +1,14 @@
+[project]
+name = "cli-agents"
+version = "0.1.0"
+dependencies = [
+    "typer[all]",
+    "rich",
+    "duckduckgo-search",
+    "google-generativeai",
+    "pyperclip",
+]
+
+[project.scripts]
+researcher = "researcher:app"
+shelly = "shelly:app"
